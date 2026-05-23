@@ -1,4 +1,4 @@
-name: natogest_pro  # <--- ASEGÚRATE QUE SEA ESTE NOMBRE
+name: natogest
 description: "NatoGest Pro AgTech"
 publish_to: 'none'
 version: 1.0.0+1
