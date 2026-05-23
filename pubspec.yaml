@@ -1,5 +1,5 @@
-name: natogest_pro
-description: "Software profesional de gestión ganadera AgTech"
+name: natogest_pro  # <--- ASEGÚRATE QUE SEA ESTE NOMBRE
+description: "NatoGest Pro AgTech"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,33 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
-  
-  # Gestión de Estado y Backend
-  flutter_riverpod: ^2.4.9
+  uuid: ^4.3.3              # <--- ESTA FALTA
   supabase_flutter: ^2.0.2
-  
-  # Persistencia Offline
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  
-  # UI & Estética
-  flutter_animate: ^4.5.0
-  google_fonts: ^6.1.0
-  font_awesome_flutter: ^10.6.0
-  
-  # Utilidades
+  flutter_riverpod: ^2.4.9
   google_mlkit_text_recognition: ^0.11.0
   image_picker: ^1.0.7
-  syncfusion_flutter_xlsio: ^24.1.41
-  path_provider: ^2.1.2
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^3.0.0
-  hive_generator: ^2.0.1
-  build_runner: ^2.4.8
-
-flutter:
-  uses-material-design: true
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  google_fonts: ^6.1.0
+# ... resto de dependencias
